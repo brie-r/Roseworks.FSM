@@ -9,10 +9,10 @@ namespace RoseworksTest
 	{
 		public static void Reset()
 		{
-			typeof(ECS).TypeInitializer.Invoke(null, null);
-			typeof(Input).TypeInitializer.Invoke(null, null);
-			typeof(FSM).TypeInitializer.Invoke(null, null);
-			typeof(Timer).TypeInitializer.Invoke(null, null);
+			typeof(ECS).TypeInitializer?.Invoke(null, null);
+			typeof(Input).TypeInitializer?.Invoke(null, null);
+			typeof(FSM).TypeInitializer?.Invoke(null, null);
+			typeof(Roseworks.Timer).TypeInitializer?.Invoke(null, null);
 		}
 		public static void Init()
 		{

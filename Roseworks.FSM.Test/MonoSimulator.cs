@@ -5,7 +5,7 @@ using Roseworks;
 
 namespace RoseworksTest
 {
-	public class MonoSimulator : IMono
+	public class MonoSimulator : IInstantiator
 	{
 		public object[] GetEditorEnts()
 		{
