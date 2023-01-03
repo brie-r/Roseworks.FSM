@@ -1,3 +1,3 @@
+# HEAVY WIP
 # Roseworks.FSM
-Finite-state machine module for Roseworks.
-Currently compiles but does not function.
+Finite-state machine library for Roseworks.
